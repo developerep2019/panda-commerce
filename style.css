@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .orange-bg {
     background-color: #fceae8;
     border-radius: 10px;
@@ -16,8 +19,39 @@
     border-radius: 8px;
     padding : 5px 10px;
     cursor: pointer;
+    outline: none;
+    color: #fff;
 }
 
 .container {
     margin-bottom: 65px;
+}
+.cat1{
+    background-image: linear-gradient(to right, #ff9c35 0%, #ffd019 100%);
+}
+.cat2{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+}
+.cat3{
+    background-image: linear-gradient(to left, #4289FF 0%, #07F8C3 100%);
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.categories h1 {
+    color : white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 30px lightgray;
+    border-radius: 10px;
+}
+.card p {
+    text-align : justify;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
